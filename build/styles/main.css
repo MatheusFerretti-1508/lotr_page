@@ -1,0 +1,112 @@
+#bg-colors {
+  corFundoHeader: rgba(0, 0, 0, 0.9);
+  corFundoPadrao: rgba(14, 10, 0, 0.9);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(14, 10, 0, 0.9);
+}
+.header__container {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 40px;
+}
+.header__container__content {
+  display: flex;
+  align-items: center;
+  padding: 16px 8px;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto 0 auto;
+}
+.header__container__content__img {
+  max-width: 150px;
+  width: 100%;
+}
+.header__container__content__title {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 48px;
+  color: #D3A13B;
+  font-weight: 600;
+}
+.header__container__content__list {
+  list-style: none;
+  display: flex;
+  margin-top: 15px;
+}
+.header__container__content__list a {
+  text-decoration: none;
+  color: #D3A13B;
+}
+.header__container__content__list a:hover {
+  color: #996f1a;
+}
+.header__container__content__list__item {
+  margin: 0 12px 0 12px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px ;
+}
+.about__container {
+  padding-top: 70px;
+}
+.about__container .content_img {
+  max-width: 100%;
+  width: 100%;
+}
+.about__container .about__content__text {
+  color: #fff;
+}
+.about__container .about__content__title {
+  color: #996f1a;
+}
+.about__container .about__content__link {
+  text-decoration: none;
+  background-color: #000;
+  padding: 8px;
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+.about__container .about__content__link:hover {
+  background-color: #1d1b1b;
+}
+.resumo_container {
+  max-width: 936px;
+  width: 100%;
+}
+.resumo_container .card {
+  margin-top: 32px;
+  background-color: rgba(14, 10, 0, 0) !important;
+  border: none;
+}
+.resumo_container .card p {
+  font-size: 48px;
+}
+.resumo_container .card-body img {
+  width: 100%;
+  margin-top: 30px;
+}
+#beleza h2 {
+  max-width: 936px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+#beleza .carousel {
+  max-width: 936px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+#beleza .carousel img {
+  max-width: 936px;
+  width: 100%;
+}

@@ -1,0 +1,148 @@
+@import 'maps.less';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bg-colors[corFundoPadrao];
+}
+
+.header__container {
+    background-color: #bg-colors[corFundoHeader];
+    margin-bottom: 40px;
+    
+    
+    &__content {
+        display: flex;
+        align-items: center;
+        padding: 16px 8px;
+        justify-content: space-between;
+        max-width: 1240px;
+        margin: 0 auto 0 auto;
+
+        &__img {
+            max-width: 150px;
+            width: 100%;
+        }
+
+        &__title {
+            font-family: #fonts-family[fonteTitulos];
+            font-size: #fonts-size[sizeTitulos];
+            color: #fonts-colors[colorTitulos];
+            font-weight: 600;
+        }
+
+        &__list {
+            list-style: none;
+            display: flex;
+            margin-top: 15px;
+
+            a {
+                text-decoration: none;
+                color: #fonts-colors[colorTitulos];
+
+                &:hover {
+                    color: #996f1a;
+                }
+            }
+
+            &__item {
+                margin: 0 12px 0 12px;
+                font-family: #fonts-family[fonteTextos];
+                font-size: 16px ;
+                
+            }
+        }
+    }
+}
+
+.about__container {
+    padding-top: 70px;
+
+    .content_img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .about__content {
+
+
+        &__text {
+            color: #fff;
+        }
+
+        &__title {
+            color: #996f1a;
+        }
+
+        &__link {
+            text-decoration: none;
+            background-color: #000;
+            padding: 8px;
+            border-radius: 20px;
+            margin-top: 10px;
+            width: 100%;
+
+            &:hover {
+                background-color: #1d1b1b;
+            }
+        }
+    }
+}
+
+
+.resumo_container {
+    max-width: 936px;
+    width: 100%;
+
+    .card {
+        margin-top: 32px;
+        background-color: rgba(14, 10, 0, 0.0) !important;
+        border: none;
+
+        p {
+            font-size: #fonts-size[sizeTitulos];
+        }
+
+    }
+    
+
+
+    .card-body {
+    
+        img {
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+}
+
+#beleza {
+
+    h2 {
+        max-width: 936px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .carousel {
+        max-width: 936px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        img {
+            max-width: 936px;
+            width: 100%;
+        }
+    }
+}
